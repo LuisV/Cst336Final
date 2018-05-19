@@ -1,0 +1,73 @@
+body {
+    font-family: Calibri;
+    font-size: 1.15em;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+footer {
+    height:200px;
+}
+html {
+    background-image: url('http://requirementsinc.com/wp-content/uploads/2015/03/bokeh-background-p1-3-u2939-fr2.png');
+}
+#texts {
+    width: 45%;
+    font-size: 1.2em;
+    margin:auto;
+}
+#quiz, #mascot {
+    display: inline-block;   
+    vertical-align: top;
+    padding:10px;
+}
+
+.answer {
+    background-color: yellow;
+    margin: 5px;
+}
+
+.correct { /* For Correct Answers */
+    color: green;
+}
+ 
+.incorrect { /* For Incorrect Answers */
+    color: red;
+}
+
+#feedback {
+    display: none;  /*Hides feedback when accessing quiz */
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*Content Wrapper for everything under user menu*/ 
+.content-wrapper {
+    top: 100px;
+    position: relative;
+    
+    margin:0 auto;
+    text-align: left;
+}
+.inbox {
+    width:850px;
+}
+
+/* User Fixed Menu When Logged In*/
+.user-menu {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid black;
+    padding: 1em;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: lightblue;
+    z-index: 10;
+}
