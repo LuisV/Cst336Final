@@ -34,11 +34,11 @@ $conversation= getConversationbyId($_GET['convId']);
             //echo $conversation['fromName']."===".$_SESSION['user']['name'];
             if($conversation['fromName']==$_SESSION['user']['name'])
             {
-                echo "From";
+                //echo "From";
                 newMessage($conversation['id'],"From", $_POST['newMessage']);
             }
             else {
-                echo "TO!";
+                //echo "TO!";
                 newMessage($conversation['id'],"To", $_POST['newMessage']);
             }
             header('Location: indivConversation.php?convId='.$_GET['convId']); 
