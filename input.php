@@ -9,8 +9,8 @@ $connect = getDBConnection();
 
 $idToGoInDB= intval($conversationId);
 
-$toFromStringDB= mysql_escape_string($toFromString);
-$messageStringDB=  mysql_escape_string($messageString);
+$toFromStringDB= $toFromString;
+$messageStringDB=  $messageString;
 $date="May 14";
 //Checking credentials in database
 //FINISH THIS 
