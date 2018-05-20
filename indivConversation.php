@@ -31,7 +31,7 @@ $conversation= getConversationbyId($_GET['convId']);
         }
         if(!empty($_POST['newMessage']))
         {
-            echo $conversation['fromName']."===".$_SESSION['user']['name'];
+            //echo $conversation['fromName']."===".$_SESSION['user']['name'];
             if($conversation['fromName']==$_SESSION['user']['name'])
             {
                 echo "From";
